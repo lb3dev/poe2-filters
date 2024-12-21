@@ -451,6 +451,24 @@ Rarity Rare
 SetFontSize 35
 
 #--------------------------
+# CUSTOM RULES
+#--------------------------
+
+Show
+BaseType "Ultimate Life Flask" "Ultimate Mana Flask"
+SetTextColor 255 207 92
+SetBorderColor 255 207 92
+SetBackgroundColor 76 51 12
+SetFontSize 35
+
+Show
+BaseType "Primed Quiver" "Advanced Dualstring Bow" "Expert Dualstring Bow"
+SetTextColor 255 207 92
+SetBorderColor 255 207 92
+SetBackgroundColor 76 51 12
+SetFontSize 45
+
+#--------------------------
 # Hide Rules (only high level), super light edition
 #--------------------------
 
