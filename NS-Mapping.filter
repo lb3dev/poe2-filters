@@ -411,24 +411,12 @@ SetFontSize 40
 #--------------------------
 
 Show
-Sockets > 0
-Rarity Normal
-SetBorderColor 200 200 200
-SetFontSize 35
-
-Show
 Quality > 1
 Rarity Normal
 SetTextColor 255 207 92
 SetBorderColor 255 207 92
 SetBackgroundColor 76 51 12
 SetFontSize 40
-
-Show
-Sockets > 0
-Rarity Magic
-SetBorderColor 0 0 200
-SetFontSize 35
 
 Show
 Quality > 1
