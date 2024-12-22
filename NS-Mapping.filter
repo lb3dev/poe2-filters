@@ -81,6 +81,7 @@ SetBackgroundColor 0 0 0 180
 
 # Always make Spirit gems pop
 Show
+ItemLevel > 18
 BaseType "Uncut Spirit Gem"
 SetTextColor 20 240 240
 SetBorderColor 20 240 240
@@ -94,6 +95,10 @@ SetFontSize 40
 Hide
 ItemLevel <= 18
 BaseType "Uncut Skill Gem"
+
+Hide
+ItemLevel <= 18
+BaseType "Uncut Spirit Gem"
 
 Hide
 BaseType "Uncut Support Gem"
