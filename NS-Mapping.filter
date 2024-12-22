@@ -364,20 +364,6 @@ PlayEffect Yellow
 MinimapIcon 1 Yellow Diamond
 
 #--------------------------
-# Rings, Amulets, Belts
-#--------------------------
-
-Show
-Rarity Normal
-Class "Rings" "Amulets" "Belts"
-SetFontSize 40
-
-Show
-Class "Rings" "Amulets" "Belts"
-Rarity Magic
-SetFontSize 40
-
-#--------------------------
 # Salvagable Items
 #--------------------------
 
