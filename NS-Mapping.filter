@@ -368,8 +368,9 @@ MinimapIcon 1 Yellow Diamond
 #--------------------------
 
 Show
-Quality > 1
-Rarity Normal
+Quality > 5
+Rarity <= Magic
+Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci"
 SetTextColor 255 207 92
 SetBorderColor 255 207 92
 SetBackgroundColor 76 51 12
@@ -377,11 +378,11 @@ SetFontSize 40
 
 Show
 Quality > 1
-Rarity Magic
+Rarity <= Magic
 SetTextColor 255 207 92
 SetBorderColor 255 207 92
 SetBackgroundColor 76 51 12
-SetFontSize 40
+SetFontSize 30
 
 #--------------------------
 # Random Rares
