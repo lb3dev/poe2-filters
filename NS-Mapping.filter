@@ -431,12 +431,19 @@ PlayAlertSound 4 300
 SetFontSize 45
 
 Show
-BaseType "Amethyst Ring"
+BaseType "Amethyst Ring" "Prismatic Ring" "Solar Amulet"
 SetTextColor 255 207 92
 SetBorderColor 255 207 92
 SetBackgroundColor 76 51 12
 PlayAlertSound 4 300
 SetFontSize 45
+
+Show
+BaseType "Gold Amulet" "Lapis Amulet" "Lunar Amulet"
+SetTextColor 255 207 92
+SetBorderColor 255 207 92
+SetBackgroundColor 76 51 12
+SetFontSize 30
 
 Show
 AreaLevel > 65
