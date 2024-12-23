@@ -405,7 +405,7 @@ SetFontSize 35
 
 Show
 Rarity Magic
-BaseType "Ultimate Life Flask" "Ultimate Mana Flask"
+Class "Flasks"
 SetTextColor 255 207 92
 SetBorderColor 255 207 92
 SetBackgroundColor 76 51 12
