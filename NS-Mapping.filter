@@ -412,12 +412,12 @@ SetFontSize 35
 #--------------------------
 
 Show
-Rarity Magic
+Quality > 0
 Class "Flasks"
 SetTextColor 255 207 92
 SetBorderColor 255 207 92
 SetBackgroundColor 76 51 12
-SetFontSize 30
+SetFontSize 40
 
 Show
 AreaLevel > 80
