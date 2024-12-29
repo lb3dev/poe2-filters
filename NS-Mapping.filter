@@ -170,6 +170,14 @@ PlayEffect Cyan
 PlayAlertSound 2 300
 
 # Special B Tier - Any Runes and Charms
+
+Show
+BaseType "Golden Charm" "Thawing Charm" "Amethyst Charm"
+SetTextColor 0 240 190
+SetFontSize 45
+PlayEffect Cyan Temp
+PlayAlertSound 2 300
+
 Show
 BaseType " Rune" " Charm"
 SetTextColor 0 240 190
