@@ -364,7 +364,16 @@ SetFontSize 40
 Show
 Class "Rings" "Amulets" "Belts"
 Rarity Rare
-SetFontSize 40
+SetFontSize 45
+SetTextColor 233 206 75
+SetBorderColor 233 206 75
+PlayEffect Yellow
+MinimapIcon 1 Yellow Diamond
+
+Show
+BaseType "Chiming Staff" "Primed Quiver" "Advanced Dualstring Bow" "Expert Dualstring Bow" "Galvanic Wand" "Siphoning Wand" "Attuned Wand"
+Rarity Rare
+SetFontSize 45
 SetTextColor 233 206 75
 SetBorderColor 233 206 75
 PlayEffect Yellow
