@@ -407,32 +407,36 @@ SetFontSize 40
 # Waystones
 #--------------------------
 
-Show
-WaystoneTier < 10
-AreaLevel > 77
+# Modded - Hide Tier 10 or below
+
+Hide
+WaystoneTier < 11
 BaseType "Waystone"
 Rarity <= Rare
-SetTextColor 255 255 255
-SetBorderColor 255 255 255
-SetFontSize 35
+
+# Modded - Show Tier 11-13 as normal waystones
 
 Show
-WaystoneTier < 5
-AreaLevel > 74
+WaystoneTier < 14
 BaseType "Waystone"
 Rarity <= Rare
 SetTextColor 255 255 255
 SetBorderColor 255 255 255
-SetFontSize 35
-
-Show
-BaseType "Waystone"
-Rarity <= Rare
-SetTextColor 255 255 255
-SetBorderColor 255 255 255
-PlayAlertSound 4 300
 PlayEffect White
 MinimapIcon 1 White Square
+SetFontSize 35
+
+# Modded - Show Tier 14-15 as purple
+
+Show
+BaseType "Waystone"
+Rarity <= Rare
+SetTextColor 145 30 220
+SetBorderColor 145 30 220
+SetBackgroundColor 235 220 245
+PlayAlertSound 5 300
+PlayEffect Purple
+MinimapIcon 1 Purple Square
 SetFontSize 40
 
 #--------------------------
@@ -441,6 +445,17 @@ SetFontSize 40
 
 Show
 Class "Rings" "Amulets" "Belts"
+Rarity Rare
+SetFontSize 40
+SetTextColor 233 206 75
+SetBorderColor 233 206 75
+PlayEffect Yellow
+MinimapIcon 1 Yellow Diamond
+
+# Modded - Value rare bases to highlight bigger
+
+Show
+BaseType "Amethyst Ring" "Attuned Wand" "Breach Ring" "Chiming Staff" "Expert Altar Robe" "Expert Barrier Quarterstaff" "Expert Bombard Crossbow" "Expert Brigand Mace" "Expert Cloaked Mail" "Expert Construct Hammer" "Expert Crumbling Maul" "Expert Doubled Gauntlets" "Advanced Dualstring Bow" "Expert Dualstring Bow" "Expert Dyad Crossbow" "Expert Edged Buckler" "Expert Elite Greathelm" "Expert Feathered Sandals" "Expert Feathered Targe" "Expert Feathered Tiara" "Expert Forlorn Crossbow" "Expert Goldcast Cuffs" "Expert Heavy Crown" "Expert Hexer's Robe" "Expert Hunter Hood" "Expert Hunting Shoes" "Expert Intricate Gloves" "Expert Iron Cuirass" "Expert Keth Raiment" "Expert Leaden Greathammer" "Expert Lizardscale Boots" "Expert Moulded Mitts" "Expert Oak Greathammer" "Expert Omen Crest Shield" "Expert Pathfinder Coat" "Expert Pelt Leggings" "Expert Pelt Mantle" "Expert Plumed Focus" "Expert Rogue Armour" "Expert Sacrificial Mantle" "Expert Scale Mail" "Expert Scalper's Jacket" "Expert Serpentscale Coat" "Expert Shaman Mantle" "Expert Shielded Helm" "Expert Slicing Quarterstaff" "Expert Spined Bracers" "Expert Spiral Wraps" "Expert Stacked Sabatons" "Expert Steel Plate" "Expert Stone Greaves" "Expert Stone Tower Shield" "Expert Studded Vest" "Expert Tribal Mask" "Expert Vaal Cuirass" "Expert Warpick" "Expert Waxed Jacket" "Expert Wayfarer Jacket" "Expert Zealot Bow" "Omen Sceptre" "Plate Belt" "Primed Quiver" "Prismatic Ring" "Rattling Sceptre" "Siphoning Wand" "Solar Amulet" "Voltaic Staff"
 Rarity Rare
 SetFontSize 40
 SetTextColor 233 206 75
@@ -476,29 +491,26 @@ SetFontSize 40
 # Salvagable Items
 #--------------------------
 
-Show
-Sockets > 0
-Rarity Normal
-SetBorderColor 200 200 200
-SetFontSize 35
+# Modded - Show armour Salvagable bigger
 
 Show
-Quality > 0
-Rarity Normal
-SetBorderColor 200 200 200
-SetFontSize 35
+Quality > 5
+Rarity <= Magic
+Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci"
+SetTextColor 255 207 92
+SetBorderColor 255 207 92
+SetBackgroundColor 76 51 12
+SetFontSize 40
+
+# Modded - Show other Salvagable
 
 Show
-Sockets > 0
-Rarity Magic
-SetBorderColor 0 0 200
-SetFontSize 35
-
-Show
-Quality > 0
-Rarity Magic
-SetBorderColor 0 0 200
-SetFontSize 35
+Quality > 1
+Rarity <= Magic
+SetTextColor 255 207 92
+SetBorderColor 255 207 92
+SetBackgroundColor 76 51 12
+SetFontSize 30
 
 #--------------------------
 # Random Rares
@@ -517,6 +529,69 @@ Rarity Rare
 SetFontSize 35
 
 #--------------------------
+# Modded Rules
+#--------------------------
+
+Show
+Quality > 0
+Class "Flasks"
+SetTextColor 255 207 92
+SetBorderColor 255 207 92
+SetBackgroundColor 76 51 12
+SetFontSize 40
+
+Show
+ItemLevel > 80
+BaseType "Omen Sceptre"
+SetTextColor 255 207 92
+SetBorderColor 255 207 92
+SetBackgroundColor 76 51 12
+PlayAlertSound 4 300
+SetFontSize 45
+
+Show
+ItemLevel > 83
+BaseType "Chiming Staff"
+SetTextColor 255 207 92
+SetBorderColor 255 207 92
+SetBackgroundColor 76 51 12
+PlayAlertSound 4 300
+SetFontSize 45
+
+Show
+BaseType "Amethyst Ring" "Prismatic Ring" "Solar Amulet"
+SetTextColor 255 207 92
+SetBorderColor 255 207 92
+SetBackgroundColor 76 51 12
+PlayAlertSound 4 300
+SetFontSize 45
+
+Show
+ItemLevel > 80
+BaseType "Attuned Wand" "Siphoning Wand"
+SetTextColor 255 207 92
+SetBorderColor 255 207 92
+SetBackgroundColor 76 51 12
+PlayAlertSound 4 300
+SetFontSize 45
+
+Show
+ItemLevel > 80
+BaseType "Primed Quiver" "Advanced Dualstring Bow" "Expert Dualstring Bow"
+SetTextColor 255 207 92
+SetBorderColor 255 207 92
+SetBackgroundColor 76 51 12
+PlayAlertSound 4 300
+SetFontSize 45
+
+Show
+BaseType "Primed Quiver" "Advanced Dualstring Bow" "Expert Dualstring Bow"
+SetTextColor 255 207 92
+SetBorderColor 255 207 92
+SetBackgroundColor 76 51 12
+SetFontSize 30
+
+#--------------------------
 # Hide Rules (only high level), super light edition
 #--------------------------
 
@@ -525,10 +600,6 @@ Quality = 0
 AreaLevel > 70
 Rarity <= Magic
 Class "Flasks"
-
-Show
-BaseType == "Amethyst Ring" "Attuned Wand" "Breach Ring" "Chiming Staff" "Expert Altar Robe" "Expert Barrier Quarterstaff" "Expert Bombard Crossbow" "Expert Brigand Mace" "Expert Cloaked Mail" "Expert Construct Hammer" "Expert Crumbling Maul" "Expert Doubled Gauntlets" "Expert Dualstring Bow" "Expert Dyad Crossbow" "Expert Edged Buckler" "Expert Elite Greathelm" "Expert Feathered Sandals" "Expert Feathered Targe" "Expert Feathered Tiara" "Expert Forlorn Crossbow" "Expert Goldcast Cuffs" "Expert Heavy Crown" "Expert Hexer's Robe" "Expert Hunter Hood" "Expert Hunting Shoes" "Expert Intricate Gloves" "Expert Iron Cuirass" "Expert Keth Raiment" "Expert Leaden Greathammer" "Expert Lizardscale Boots" "Expert Moulded Mitts" "Expert Oak Greathammer" "Expert Omen Crest Shield" "Expert Pathfinder Coat" "Expert Pelt Leggings" "Expert Pelt Mantle" "Expert Plumed Focus" "Expert Rogue Armour" "Expert Sacrificial Mantle" "Expert Scale Mail" "Expert Scalper's Jacket" "Expert Serpentscale Coat" "Expert Shaman Mantle" "Expert Shielded Helm" "Expert Slicing Quarterstaff" "Expert Spined Bracers" "Expert Spiral Wraps" "Expert Stacked Sabatons" "Expert Steel Plate" "Expert Stone Greaves" "Expert Stone Tower Shield" "Expert Studded Vest" "Expert Tribal Mask" "Expert Vaal Cuirass" "Expert Warpick" "Expert Waxed Jacket" "Expert Wayfarer Jacket" "Expert Zealot Bow" "Omen Sceptre" "Plate Belt" "Primed Quiver" "Prismatic Ring" "Rattling Sceptre" "Siphoning Wand" "Solar Amulet" "Voltaic Staff"
-Rarity <= Magic
 
 Hide
 AreaLevel >= 78
@@ -580,10 +651,10 @@ Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "Quivers" "One 
 ### OPTIONAL RULE: Hide random bases
 # REMOVE THE BASES YOU --DO-- WANT TO SEE BEFORE SETTING TO HIDE
 
-# Hide
-# Rarity <= Magic
-# Class "Flasks" "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "Quivers" "One Hand Maces" "Two Hand Maces" "Staves" "Quarterstaves" "Bows" "Crossbows" "Wands" "Sceptres"
-# AreaLevel >= 65
+Hide
+Rarity <= Magic
+Class "Flasks" "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "Quivers" "One Hand Maces" "Two Hand Maces" "Staves" "Quarterstaves" "Bows" "Crossbows" "Wands" "Sceptres"
+AreaLevel >= 65
 
 ### OPTIONAL RULE: REDUCES BACKGROUND ON LOW LEVEL BASES
 
