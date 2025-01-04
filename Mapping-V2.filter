@@ -99,7 +99,6 @@ BaseType == "Gold"
 SetTextColor 180 180 180
 SetBorderColor 0 0 0 255
 SetBackgroundColor 0 0 0 180
-MinimapIcon 2 Grey Cross
 
 #--------------------------
 # Uncut Gems
@@ -150,18 +149,15 @@ MinimapIcon 1 Cyan Triangle
 SetFontSize 40
 
 # Gems up to level 18 in maps don't get a special highlight
-Show
+
+# Modded - gems
+
+Hide
 ItemLevel <= 18
 BaseType "Uncut Skill Gem"
-SetTextColor 20 240 240
-SetBorderColor 20 240 240
-SetFontSize 35
 
-Show
+Hide
 BaseType "Uncut Support Gem"
-SetTextColor 20 240 240
-SetBorderColor 20 240 240
-SetFontSize 35
 
 # Level 19 gems and up in maps get a special highlight
 Show
