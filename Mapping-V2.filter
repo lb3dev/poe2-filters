@@ -481,7 +481,7 @@ SetFontSize 40
 # Modded - Show other Salvagable
 
 Show
-Quality > 1
+Quality > 14
 Rarity <= Magic
 SetTextColor 255 207 92
 SetBorderColor 255 207 92
