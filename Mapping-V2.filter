@@ -560,13 +560,6 @@ SetBackgroundColor 76 51 12
 PlayAlertSound 4 300
 SetFontSize 45
 
-Show
-BaseType "Primed Quiver" "Advanced Dualstring Bow" "Expert Dualstring Bow"
-SetTextColor 255 207 92
-SetBorderColor 255 207 92
-SetBackgroundColor 76 51 12
-SetFontSize 30
-
 #--------------------------
 # Hide Rules (only high level), super light edition
 #--------------------------
