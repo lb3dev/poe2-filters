@@ -463,26 +463,6 @@ MinimapIcon 1 Yellow Diamond
 # Rings, Amulets, Belts
 #--------------------------
 
-Show
-Rarity Normal
-Class "Rings" "Amulets"
-SetFontSize 40
-
-Show
-Rarity Normal
-Class "Belts"
-AreaLevel < 65
-SetFontSize 35
-
-Show
-Rarity Normal
-Class "Belts"
-
-Show
-Class "Rings" "Amulets" "Belts"
-Rarity Magic
-SetFontSize 40
-
 #--------------------------
 # Salvagable Items
 #--------------------------
