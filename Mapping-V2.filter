@@ -348,7 +348,7 @@ SetFontSize 35
 # Currency Tier C: Vaal, Chaos, Exalt, Exotic
 Show
 Class "Currency"
-BaseType "Arcanist's Etcher" "Armourer's Scrap" "Blacksmith's Whetstone" "Orb of Augmentation" "Orb of Transmutation" "Regal Shard"
+BaseType "Arcanist's Etcher" "Armourer's Scrap" "Blacksmith's Whetstone" "Orb of Augmentation" "Orb of Transmutation"
 SetTextColor 220 190 132
 MinimapIcon 2 Grey Circle
 SetFontSize 35
@@ -659,6 +659,9 @@ Hide
 Rarity <= Magic
 Class "Rings" "Amulets" "Belts"
 AreaLevel >= 65
+
+Hide
+BaseType "Regal Shard"
 
 ### OPTIONAL RULE: REDUCES BACKGROUND ON LOW LEVEL BASES
 
