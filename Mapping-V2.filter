@@ -414,14 +414,14 @@ SetFontSize 40
 # Modded - Hide Tier 10 or below
 
 Hide
-WaystoneTier < 11
+WaystoneTier < 12
 BaseType "Waystone"
 Rarity <= Rare
 
-# Modded - Show Tier 11-13 as normal waystones
+# Modded - Show Tier 12-14 as normal waystones
 
 Show
-WaystoneTier < 14
+WaystoneTier < 15
 BaseType "Waystone"
 Rarity <= Rare
 SetTextColor 255 255 255
@@ -430,7 +430,7 @@ PlayEffect White
 MinimapIcon 1 White Square
 SetFontSize 35
 
-# Modded - Show Tier 14-15 as purple
+# Modded - Show Tier 15 as purple
 
 Show
 BaseType "Waystone"
