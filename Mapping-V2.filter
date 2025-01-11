@@ -558,6 +558,19 @@ SetBackgroundColor 255 255 255 255
 PlayAlertSound 6 300
 PlayEffect Red
 MinimapIcon 0 Red Star
+SetFontSize 45
+
+Show
+ItemLevel > 81
+Rarity Normal
+BaseType "Expert Feathered Sandals" "Expert Silk Slippers" "Expert Wrapped Sandals" "Expert Pelt Leggings" "Expert Secured Leggings" "Expert Steeltoe Boots" "Expert Laced Boots" "Expert Stone Greaves"
+SetTextColor 255 0 0 255
+SetBorderColor 255 0 0 255
+SetBackgroundColor 255 255 255 255
+PlayAlertSound 6 300
+PlayEffect Red
+MinimapIcon 0 Red Star
+SetFontSize 45
 
 Show
 ItemLevel > 80
