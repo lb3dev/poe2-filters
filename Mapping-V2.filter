@@ -523,7 +523,7 @@ SetTextColor 255 207 92
 SetBorderColor 255 207 92
 SetBackgroundColor 76 51 12
 PlayAlertSound 4 300
-SetFontSize 45
+SetFontSize 40
 
 Show
 ItemLevel > 83
@@ -532,15 +532,25 @@ SetTextColor 255 207 92
 SetBorderColor 255 207 92
 SetBackgroundColor 76 51 12
 PlayAlertSound 4 300
-SetFontSize 45
+SetFontSize 40
 
 Show
 BaseType "Amethyst Ring" "Prismatic Ring" "Solar Amulet"
 SetTextColor 255 207 92
 SetBorderColor 255 207 92
 SetBackgroundColor 76 51 12
-PlayAlertSound 4 300
-SetFontSize 45
+SetFontSize 40
+
+Show
+ItemLevel > 80
+Rarity Normal
+BaseType "Attuned Wand" "Siphoning Wand"
+SetTextColor 255 0 0 255
+SetBorderColor 255 0 0 255
+SetBackgroundColor 255 255 255 255
+PlayAlertSound 6 300
+PlayEffect Red
+MinimapIcon 0 Red Star
 
 Show
 ItemLevel > 80
@@ -549,7 +559,7 @@ SetTextColor 255 207 92
 SetBorderColor 255 207 92
 SetBackgroundColor 76 51 12
 PlayAlertSound 4 300
-SetFontSize 45
+SetFontSize 40
 
 Show
 ItemLevel > 80
@@ -558,7 +568,7 @@ SetTextColor 255 207 92
 SetBorderColor 255 207 92
 SetBackgroundColor 76 51 12
 PlayAlertSound 4 300
-SetFontSize 45
+SetFontSize 40
 
 #--------------------------
 # Hide Rules (only high level), super light edition
