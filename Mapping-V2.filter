@@ -240,10 +240,10 @@ PlayEffect Cyan Temp
 SetFontSize 45
 MinimapIcon 1 Cyan Diamond
 
-Show
+# Modded - Hide all runes and charms
+
+Hide
 BaseType " Rune" " Charm"
-SetTextColor 0 240 190
-PlayEffect Cyan Temp
 
 #--------------------------
 # Scroll of Wisdom High Level Hiding
