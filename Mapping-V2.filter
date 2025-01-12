@@ -158,6 +158,10 @@ ItemLevel <= 18
 BaseType "Uncut Skill Gem"
 
 Hide
+ItemLevel <= 18
+BaseType "Uncut Spirit Gem"
+
+Hide
 BaseType "Uncut Support Gem"
 
 # Level 19 gems and up in maps get a special highlight
