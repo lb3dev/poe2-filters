@@ -463,8 +463,144 @@ MinimapIcon 1 Yellow Diamond
 
 # Modded - Value rare bases to highlight bigger
 
+# Modded - Pure ES bases
+
 Show
-BaseType "Amethyst Ring" "Siphoning Wand" "Attuned Wand" "Breach Ring" "Chiming Staff" "Expert Bombard Crossbow" "Advanced Dualstring Bow" "Expert Dualstring Bow" "Expert Feathered Sandals" "Expert Silk Slippers" "Expert Feathered Tiara" "Expert Chain Tiara" "Expert Wicker Tiara" "Expert Hexer's Robe" "Expert Plumed Focus" "Expert Crystal Focus" "Expert Antler Focus" "Omen Sceptre" "Plate Belt" "Primed Quiver" "Prismatic Ring" "Rattling Sceptre" "Solar Amulet" "Expert Intricate Gloves" "Expert Jewelled Gloves"
+BaseType "Expert Feathered Sandals" "Expert Silk Slippers" "Expert Wrapped Sandals"
+Rarity Rare
+SetFontSize 40
+SetTextColor 233 206 75
+SetBorderColor 233 206 75
+PlayEffect Yellow
+
+Show
+BaseType "Expert Feathered Tiara" "Expert Chain Tiara" "Expert Wicker Tiara"
+Rarity Rare
+SetFontSize 40
+SetTextColor 233 206 75
+SetBorderColor 233 206 75
+PlayEffect Yellow
+
+Show
+BaseType "Expert Intricate Gloves" "Expert Jewelled Gloves" "Expert Sombre Gloves"
+Rarity Rare
+SetFontSize 40
+SetTextColor 233 206 75
+SetBorderColor 233 206 75
+PlayEffect Yellow
+
+Show
+BaseType "Expert Hexer's Robe"
+Rarity Rare
+SetFontSize 40
+SetTextColor 233 206 75
+SetBorderColor 233 206 75
+PlayEffect Yellow
+
+# Modded - EV/ES
+
+Show
+BaseType "Expert Tribal Mask" "Expert Veiled Mask" "Expert Face Mask"
+Rarity Rare
+SetFontSize 40
+SetTextColor 233 206 75
+SetBorderColor 233 206 75
+PlayEffect Yellow
+
+Show
+BaseType "Expert Spiral Wraps" "Expert Linen Wraps" "Expert Gauze Wraps"
+Rarity Rare
+SetFontSize 40
+SetTextColor 233 206 75
+SetBorderColor 233 206 75
+PlayEffect Yellow
+
+Show
+BaseType "Expert Hunting Shoes" "Expert Threaded Shoes" "Expert Frayed Shoes"
+Rarity Rare
+SetFontSize 40
+SetTextColor 233 206 75
+SetBorderColor 233 206 75
+PlayEffect Yellow
+
+Show
+BaseType "Expert Waxed Jacket" "Expert Scalper's Jacket" "Expert Wayfarer Jacket"
+Rarity Rare
+SetFontSize 40
+SetTextColor 233 206 75
+SetBorderColor 233 206 75
+PlayEffect Yellow
+
+# Modded - Wands
+
+Show
+BaseType "Siphoning Wand" "Attuned Wand" "Chiming Staff"
+Rarity Rare
+SetFontSize 40
+SetTextColor 233 206 75
+SetBorderColor 233 206 75
+PlayEffect Yellow
+
+# Modded - Foci
+
+Show
+BaseType "Expert Plumed Focus" "Expert Crystal Focus" "Expert Antler Focus"
+Rarity Rare
+SetFontSize 40
+SetTextColor 233 206 75
+SetBorderColor 233 206 75
+PlayEffect Yellow
+
+# Modded - Bow bases
+
+Show
+BaseType "Dualstring Bow" "Advanced Dualstring Bow" "Expert Dualstring Bow" "Primed Quiver"
+Rarity Rare
+SetFontSize 40
+SetTextColor 233 206 75
+SetBorderColor 233 206 75
+PlayEffect Yellow
+
+# Modded - Sceptre
+
+BaseType "Omen Sceptre" "Rattling Sceptre" "Hallowed Sceptre" "Pious Sceptre" "Stoic Sceptre"
+Rarity Rare
+SetFontSize 40
+SetTextColor 233 206 75
+SetBorderColor 233 206 75
+PlayEffect Yellow
+
+# Modded - Xbow
+
+Show
+BaseType "Expert Bombard Crossbow" "Expert Forlorn Crossbow" "Expert Tense Crossbow"
+Rarity Rare
+SetFontSize 40
+SetTextColor 233 206 75
+SetBorderColor 233 206 75
+PlayEffect Yellow
+
+# Modded - QuarterStaff
+
+Show
+BaseType "Expert Slicing Quarterstaff" "Expert Long Quarterstaff" "Expert Barrier Quarterstaff"
+Rarity Rare
+SetFontSize 40
+SetTextColor 233 206 75
+SetBorderColor 233 206 75
+PlayEffect Yellow
+
+# Modded - Accessories
+
+BaseType "Amethyst Ring" "Breach Ring" "Plate Belt" "Prismatic Ring" "Solar Amulet"
+Rarity Rare
+SetFontSize 40
+SetTextColor 233 206 75
+SetBorderColor 233 206 75
+PlayEffect Yellow
+
+Show
+BaseType "Expert Cultist Greathammer"
 Rarity Rare
 SetFontSize 40
 SetTextColor 233 206 75
