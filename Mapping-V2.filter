@@ -567,6 +567,7 @@ PlayEffect Yellow
 
 # Modded - Sceptre
 
+Show
 BaseType "Omen Sceptre" "Rattling Sceptre" "Hallowed Sceptre" "Pious Sceptre" "Stoic Sceptre"
 Rarity Rare
 SetFontSize 40
@@ -596,6 +597,7 @@ PlayEffect Yellow
 
 # Modded - Accessories
 
+Show
 BaseType "Amethyst Ring" "Breach Ring" "Plate Belt" "Prismatic Ring" "Solar Amulet"
 Rarity Rare
 SetFontSize 40
