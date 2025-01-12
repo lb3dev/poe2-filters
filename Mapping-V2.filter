@@ -353,6 +353,11 @@ SetTextColor 220 190 132
 MinimapIcon 2 Grey Circle
 SetFontSize 35
 
+# Modded - Hide regal shards
+
+Hide
+BaseType "Regal Shard"
+
 Show
 Class "Currency"
 BaseType "Scroll of Wisdom" "Shard"
@@ -659,9 +664,6 @@ Hide
 Rarity <= Magic
 Class "Rings" "Amulets" "Belts"
 AreaLevel >= 65
-
-Hide
-BaseType "Regal Shard"
 
 ### OPTIONAL RULE: REDUCES BACKGROUND ON LOW LEVEL BASES
 
